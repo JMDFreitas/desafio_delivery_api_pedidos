@@ -81,14 +81,6 @@ async function getProductsMoreSalesService() {
         .map(a => array.push(`${a.pizza} - ${a.quantidade}`));
 
     return array;
-
-    // allOrdersEntregues.sort((a, b) => {
-    //     return a.produto - b.produto || a.produto.localeCompare(b.produto);
-    // });
-
-    // console.log(allOrders.length);
-    // console.log(allOrdersEntregues.length);
-    // return allOrdersEntregues;
 }
 
 export default {
