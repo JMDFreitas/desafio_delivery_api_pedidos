@@ -1,5 +1,6 @@
 import express from 'express';
 import OrdersController from '../controllers/ordersController.js';
+
 const router = express.Router();
 
 router.get('/:id', OrdersController.getOrderContoller);
@@ -21,3 +22,20 @@ router.use((err, req, res, next) => {
 });
 
 export default router;
+
+/**
+ router.get('/total', async (req, res,) => {
+    try {
+        let cliente = req.body.cliente;
+        console.log(cliente);
+        const data = JSON.parse(await readFile('pedidos.json'));
+        const total = data.pedidos
+            .filter(p => p.cliente === cliente && p.entregue === true)
+            .map(p => p.valor)
+            .reduce((acumulador, valorAtual) => acumulador + valorAtual);
+        console.log(total);
+        res.send(total.toString());
+    } catch (err) {
+        res.status(400);
+    }
+}); */

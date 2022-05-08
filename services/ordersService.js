@@ -10,19 +10,12 @@ async function getOrdersService() {
 /** Obter o valor total dos pedidos entregues de um cliente passado como parametro */
 async function getOrdersValueService(cliente) {
     const allOrders = await OrdersRepository.getOrders();
-    let ordersValue = 0;
+    const total = allOrders
+        .filter(p => p.cliente === cliente && p.entregue)
+        .map(p => p.valor)
+        .reduce((acumulador, valorAtual) => acumulador + valorAtual);
 
-    //Todos os pedidos do cliente passado como parametro
-    const ordersClient = allOrders.filter(order => order.cliente === cliente);
-    const ordersClientEntregue = ordersClient.filter(order => order.entregue);
-
-    for (let order of ordersClientEntregue) {
-        ordersValue += order.valor;
-    }
-    const returnValue = {
-        ValorTotalConta: ordersValue,
-    };
-    return returnValue;
+    return total.toString();
 }
 /** Obter o valor total dos pedidos entregues de um cliente passado como parametro */
 

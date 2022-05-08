@@ -261,3 +261,36 @@
 2022-05-07T18:58:43.945Z [my-ordersdelivery-api] info: DELETE /order/:id - 317
 2022-05-07T18:59:44.231Z [my-ordersdelivery-api] info: GET /order/:id 216
 2022-05-07T19:55:09.895Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T09:51:18.234Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T09:52:21.907Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:53:41.329Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:56:07.602Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T09:56:11.769Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:56:37.498Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:57:42.283Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:57:54.688Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T09:57:54.876Z [my-ordersdelivery-api] error: GET /orders - Registro não foi encontrado 1
+2022-05-08T09:59:03.970Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T09:59:04.260Z [my-ordersdelivery-api] error: GET /orders - readFile is not defined
+2022-05-08T10:00:20.352Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T10:00:22.492Z [my-ordersdelivery-api] error: GET /orders - Cannot read properties of undefined (reading 'localeCompare')
+2022-05-08T10:01:17.869Z [my-ordersdelivery-api] error: GET /orders - Cannot read properties of undefined (reading 'localeCompare')
+2022-05-08T10:01:18.844Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T10:05:22.322Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T10:05:24.234Z [my-ordersdelivery-api] error: GET /orders - Cannot read properties of undefined (reading 'localeCompare')
+2022-05-08T10:13:19.262Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T10:13:25.865Z [my-ordersdelivery-api] error: GET /orders - Cannot read properties of undefined (reading 'localeCompare')
+2022-05-08T10:14:20.077Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T10:14:22.596Z [my-ordersdelivery-api] error: GET /orders - cliente is not defined
+2022-05-08T10:14:40.788Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:00:26.552Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:05:43.594Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:06:52.272Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:07:18.752Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:08:08.809Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:09:03.485Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:09:31.290Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:09:57.561Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:10:43.983Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:11:35.538Z [my-ordersdelivery-api] info: API DELIVERY STARTED!
+2022-05-08T12:11:41.762Z [my-ordersdelivery-api] info: GET /orders

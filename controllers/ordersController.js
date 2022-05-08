@@ -87,9 +87,7 @@ async function getOrdersValueController(req, res, next) {
     console.log('Passou aqui 1');
     try {
         const client = req.body.cliente;
-        const ordersClient = await OrdersService.getOrdersValueService(client);
-
-        res.send(ordersClient);
+        res.send(await OrdersService.getOrdersValueService(client));
     } catch (err) {
         next(err);
     }
